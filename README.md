@@ -2,7 +2,7 @@
 
 Hi everyone!
 
-This project is created in 27-Aug-2021.
+This project is created on 27-Aug-2021.
 
 At this time, I am an auditor who begins to learn Python to solve my real-life problems.
 
@@ -45,10 +45,14 @@ Look at my --example-- folder.
 
 I have a _blankExcelReport.xlsx file_. Please note that sometimes this file may contain some Excel function such as sum, countif,... and I use this file as a template to copy the number from Word tables and update the data for those functions.
 
-The _wordToExcel.py_ will copy the tables from _wordReport.docx_ to the _blankExcelReport.xlsx_ and save as _newExcelReport.xlsx_ (so that the orginal Excel template won't be messed up).
+The _wordToExcel.py_ will copy the tables from _wordReport.docx_ to the _blankExcelReport.xlsx_ and save as _newExcelReport.xlsx_ (so that the original Excel template won't be messed up).
 
 # What I have tried and fail?
 
 - Format the text's color and the cell's color (Excel).
 - "Copy" the font and size of Word tables' content.
 - Make the optional options easier to use. For now, I only know to comment/uncomment the code.
+
+# Acknowledgement
+
+Thank you Al Sweigart for teaching me in this course https://www.udemy.com/course/automate/
