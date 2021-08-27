@@ -43,7 +43,7 @@ I check if the content in the merged cell has been read & written, if yes, skip 
 
 Look at my --example-- folder.
 
-I have a _blankExcelReport.xlsx file_. Please note that sometimes this file may contain some Excel function such as sum, countif,... and I use this file as a template to copy the number from Word tables and update the data for those functions.
+I have a _blankExcelReport.xlsx_ file. Please note that sometimes this file may contain some Excel function such as sum, countif,... and I use this file as a template to copy the number from Word tables and update the data for those functions.
 
 The _wordToExcel.py_ will copy the tables from _wordReport.docx_ to the _blankExcelReport.xlsx_ and save as _newExcelReport.xlsx_ (so that the original Excel template won't be messed up).
 
