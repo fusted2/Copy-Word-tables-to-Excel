@@ -37,5 +37,6 @@ I check if the content in the merged cell has been read & written, if yes, skip 
 
 # What I have tried and fail?
 
-- Format the text's color and the cell's color (Excel)
+- Format the text's color and the cell's color (Excel).
+- "Copy" the font and size of Word tables' content.
 - Make the optional options easier to use. For now, I only know to comment/uncomment the code.
