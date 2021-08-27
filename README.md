@@ -15,6 +15,10 @@ I have Word report files that usually contain around 80+ tables. Sometimes, I ha
 
 I use --python-docx-- and --openpyxl-- packages to copy all Word tables' content (plain text) into one/multiple Excel sheet(s) in consecutive order and separate them by 3 blank rows.
 
+> pip install python-docx
+> 
+> pip install openpyxl
+
 ## 2. Format the Excel cells (optional)
 
 The Excel cells are formatted as Bold, Italic, Underline ('single') as theirs in Word.
@@ -34,6 +38,14 @@ I convert the content type into (negative) integer/float or string before paste 
 When I use --docx--, the merged cells' content maybe read & write more than once.
 
 I check if the content in the merged cell has been read & written, if yes, skip it (using *._tc* attribute/method (I don't know what it is?)).
+
+# Example
+
+Look at my --example-- folder.
+
+I have a _blankExcelReport.xlsx file_. Please note that sometimes this file may contain some Excel function such as sum, countif,... and I use this file as a template to copy the number from Word tables and update the data for those functions.
+
+The _wordToExcel.py_ will copy the tables from _wordReport.docx_ to the _blankExcelReport.xlsx_ and save as _newExcelReport.xlsx_ (so that the orginal Excel template won't be messed up).
 
 # What I have tried and fail?
 
