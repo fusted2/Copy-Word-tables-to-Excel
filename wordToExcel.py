@@ -7,8 +7,8 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 # logging.disable(logging.DEBUG, logging.CRITICAL)
 
 # set thousand & decimal separate:
-locale.setlocale(locale.LC_NUMERIC, "en_DK.UTF-8") # 1,234,567.999
-# locale.setlocale(locale.LC_NUMERIC, "en_US.UTF-8") # 1.234.567,999
+locale.setlocale(locale.LC_NUMERIC, "en_DK.UTF-8") # 1.234.567,999
+# locale.setlocale(locale.LC_NUMERIC, "en_US.UTF-8") # 1,234,567.999
 
 logging.critical("Running.......\n")
 
