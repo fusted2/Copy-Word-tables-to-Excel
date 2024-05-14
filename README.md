@@ -47,7 +47,7 @@ I have a _blankExcelReport.xlsx_ file. Please note that sometimes this file may 
 
 The _wordToExcel.py_ will copy the tables from _wordReport.docx_ to the _blankExcelReport.xlsx_ and save as _newExcelReport.xlsx_ (so that the original Excel template won't be messed up).
 
-# What I have tried and fail?
+# What I have tried and failed?
 
 - Format the text's color and the cell's color (Excel).
 - "Copy" the font and size of Word tables' content.
